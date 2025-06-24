@@ -57,36 +57,42 @@ Now your WhatsApp number is sandbox-verified
 
 🛠️ How to Run This Project Locally
 
-Step 1: Clone the Repository
+Step 1: Clone the Repository:
 
 
 git clone https://github.com/your-username/smart-reminder-bot.git
+
 cd smart-reminder-bot
 
-Step 2: Install Backend Dependencies
+Step 2: Install Backend Dependencies"
 
 
 cd backend
+
 npm install
 
-Step 3: Setup .env File
+Step 3: Setup .env File:
+
+
 Inside the /backend folder, create a .env file and paste your Mongo URI and Twilio credentials (see above).
 
-Step 4: Start the Backend
+Step 4: Start the Backend:
 
 
 npm start
 
 Backend will run on http://localhost:5000
 
-Step 5: Install Frontend Dependencies
+Step 5: Install Frontend Dependencies:
+
 Open a new terminal window/tab:
 
 
 cd frontend
+
 npm install
 
-Step 6: Start the Frontend
+Step 6: Start the Frontend:
 
 
 npm start
