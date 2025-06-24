@@ -41,6 +41,8 @@ TWILIO_AUTH_TOKEN=your_twilio_auth_token
 TWILIO_PHONE_NUMBER=whatsapp:+14155238886
 ⚠️ Do not share your .env file or commit it to GitHub.
 
+---
+
 To use Twilio WhatsApp sandbox:
 
 Go to your Twilio Console
@@ -51,17 +53,22 @@ Send the given code (e.g., join noise-garage) from your WhatsApp to +14155238886
 
 Now your WhatsApp number is sandbox-verified
 
+---
+
 🛠️ How to Run This Project Locally
+
 Step 1: Clone the Repository
 bash
 Copy code
 git clone https://github.com/your-username/smart-reminder-bot.git
 cd smart-reminder-bot
+
 Step 2: Install Backend Dependencies
 bash
 Copy code
 cd backend
 npm install
+
 Step 3: Setup .env File
 Inside the /backend folder, create a .env file and paste your Mongo URI and Twilio credentials (see above).
 
@@ -78,6 +85,7 @@ bash
 Copy code
 cd frontend
 npm install
+
 Step 6: Start the Frontend
 bash
 Copy code
@@ -91,5 +99,6 @@ Enter your phone number and reminder message
 
 The backend will schedule and send your reminder to WhatsApp
 
-Built By
-Asif Hussain A
+---
+
+Enjoy the Reminder Experience, Built by Asif Hussain A
