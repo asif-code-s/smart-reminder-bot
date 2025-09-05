@@ -60,7 +60,7 @@ Now your WhatsApp number is sandbox-verified
 Step 1: Clone the Repository:
 
 
-git clone https://github.com/your-username/smart-reminder-bot.git
+git clone https://github.com/asif-code-s/smart-reminder-bot.git
 
 cd smart-reminder-bot
 
